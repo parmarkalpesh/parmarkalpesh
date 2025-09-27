@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "project-1",
+      "description": "Abstract coding background",
+      "imageUrl": "/Green_Station.png",
+      "imageHint": "Charging point finding Platform"
+    },
+    {
+      "id": "project-2",
+      "description": "Skill Sharing Platform",
+      "imageUrl": "/Skill_Hub.png",
+      "imageHint": "Skill Hub"
+    },
+    {
+      "id": "project-3",
+      "description": "Tour Booking System",
+      "imageUrl": "/Tourism_Booking.png",
+      "imageHint": "Tourism Booking System"
+    },
+    {
+      "id": "project-4",
+      "description": "NGOConnect",
+      "imageUrl": "/NGO_Connect.png",
+      "imageHint": "A platform for NGO connectivity"
+    }
+  ]
+}

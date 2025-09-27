@@ -1,0 +1,14 @@
+export { FigmaIcon } from './figma-icon';
+export { NextJSIcon } from './nextjs-icon';
+export { NodeJSIcon } from './nodejs-icon';
+export { ReactIcon } from './react-icon';
+export { TailwindIcon } from './tailwind-icon';
+export { TypeScriptIcon } from './typescript-icon';
+export { Html5Icon } from './html5-icon';
+export { Css3Icon } from './css3-icon';
+export { JavascriptIcon } from './javascript-icon';
+export { BootstrapIcon } from './bootstrap-icon';
+export { ExpressIcon } from './express-icon';
+export { MongoDbIcon } from './mongodb-icon';
+export { MySqlIcon } from './mysql-icon';
+export { GitIcon } from './git-icon';
