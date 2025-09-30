@@ -7,7 +7,7 @@ export function About() {
         <div className="relative aspect-square max-w-md mx-auto w-full">
           <Image
             src="/Kalpesh_Image.jpg"
-            alt="Kalpesh Parmar"
+            alt="Kalpesh Parmar - Full Stack Developer"
             fill
             className="rounded-lg object-cover shadow-lg"
             data-ai-hint="professional portrait"
