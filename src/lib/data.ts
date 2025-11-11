@@ -53,39 +53,47 @@ export const experiences = [
   {
     company: "CodSoft",
     role: "Web Development Intern",
-    duration: "3 Month",
-    description: "Developed and deployed a responsive web application using HTML5, CSS3, and JavaScript.",
+    duration: "1 Month",
+    description:
+      "Developed and deployed a responsive web application using HTML5, CSS3, and JavaScript.",
+    certificate: "/certificates/codsoft.pdf", 
   },
   {
     company: "Aushvera",
     role: "Web Development Intern",
-    duration: "3 Month",
-    description: "Developed and deployed a responsive web application using HTML5, CSS3, and JavaScript, PHP, MySQL collaborating with developers through GitHub for version control.",
+    duration: "2 Month",
+    description:
+      "Developed and deployed a responsive web application using HTML5, CSS3, and JavaScript, PHP, MySQL collaborating with developers through GitHub for version control.",
+    certificate: "/certificates/Aushvera.pdf",
   },
   {
     company: "Aptivison",
     role: "Web Development Intern",
-    duration: "pursuing",
-    description: "Developed and deployed a responsive web application using React.js with related library useing collaborating with developers through GitHub for version control.",
+    duration: "3 Month",
+    description:
+      "Developed and deployed a responsive web application using React.js with related library useing collaborating with developers through GitHub for version control.",
+    certificate: "/certificates/aptivison.jpg",
   },
   {
     company: "Navkalpit",
     role: "Web Development Intern",
     duration: "pursuing",
-    description: "Developed and deployed a responsive web application using React.js with related library useing collaborating with developers through GitHub for version control.",
+    description:
+      "Developed and deployed a responsive web application using React.js with related library useing collaborating with developers through GitHub for version control.",
+    certificate: "/certificates/navkalpit.jpg",
   },
 ];
 
 export const education = [
     {
-        institution: "Marwadi University",
+        institution: "Marwadi University (NAAC A+), Rajkot",
         degree: "Master of Computer Application (MCA)",
-        duration: "2023 - Present",
+        duration: "2024 - Present",
     },
     {
-        institution: "Marwadi University",
+        institution: "Smt. CZMG BCA Collage, Jamnagar",
         degree: "Bachelor of Computer Application (BCA)",
-        duration: "2020 - 2023",
+        duration: "2021 - 2024",
     }
 ];
 

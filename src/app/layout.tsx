@@ -1,3 +1,4 @@
+// src/app/layout.tsx
 import type { Metadata } from "next";
 import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
@@ -21,17 +22,26 @@ const fontBody = Inter({
 export const metadata: Metadata = {
   title: "Kalpesh Parmar | Full-Stack Developer",
   description: "Showcasing my skills in React, Next.js, Node.js, and more.",
-  
-  keywords: ["Next.js", "React", "MERN STACK","Frontend Developer", "Full Stack Developer"],
+  icons: {
+    icon: "/icon.png", 
+    shortcut: "/icon.png",
+    apple: "/apple-touch-icon.png",
+  },
+  keywords: [
+    "Next.js",
+    "React",
+    "MERN STACK",
+    "Frontend Developer",
+    "Full Stack Developer",
+  ],
   openGraph: {
     title: "Kalpesh Parmar | Full-Stack Developer",
-    description:
-      "A modern developer portfolio built with Next.js and TypeScript.",
-    url: "http://kalpeshparmar.me/",
+    description: "A modern developer portfolio built with Next.js and TypeScript.",
+    url: "https://kalpeshparmar.me/",
     siteName: "Kalpesh Parmar Portfolio",
     images: [
       {
-        url: "http://kalpeshparmar.me/",
+        url: "https://kalpeshparmar.me/Kalpesh_Image.jpg",
         width: 1200,
         height: 630,
         alt: "Portfolio Preview",
@@ -44,27 +54,22 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Kalpesh Parmar | Full-Stack Developer",
     description: "A modern developer portfolio built with Next.js",
-    images: ["http://kalpeshparmar.me/"],
+    images: ["https://kalpeshparmar.me/Kalpesh_Image.jpg"],
     creator: "@ParmarKalp1205",
   },
 };
 
-<script
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Person",
-      name: "Kalpesh Parmar",
-      url: "http://kalpeshparmar.me",
-      sameAs: [
-        "https://linkedin.com/in/parmar-kalpesh",
-        "https://github.com/parmarkalpesh",
-      ],
-      jobTitle: "Full Stack Developer",
-    }),
-  }}
-/>;
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Kalpesh Parmar",
+  url: "https://kalpeshparmar.me",
+  sameAs: [
+    "https://linkedin.com/in/parmar-kalpesh",
+    "https://github.com/parmarkalpesh",
+  ],
+  jobTitle: "Full Stack Developer",
+};
 
 export default function RootLayout({
   children,
@@ -74,12 +79,20 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        {/* third-party analytics (optional) */}
         <script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="0aDrqNMEwmJ0ADL4ZB2cMA"
           async
         ></script>
+
+        {/* Structured data placed inside head */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
+
       <body
         className={cn(
           "font-body antialiased",
