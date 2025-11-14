@@ -17,14 +17,6 @@ const getImage = (id: string): ImagePlaceholder => {
 
 export const projects = [
   {
-    title: "GreenStation",
-    description: "A sustainable platform for finding E-Vehicle charging point stations.",
-    image: getImage('project-1'),
-    stack: ["React.js", "Node.js","Express.js" ,"MongoDB", "Tailwind CSS"],
-    // liveUrl: "#",
-    codeUrl: "https://github.com/parmarkalpesh/GreenStation.git",
-  },
-  {
     title: "SkillHub",
     description: "A student skill-sharing platform between friends with follow & following features, including Google authentication.",
     image: getImage('project-2'),
