@@ -48,7 +48,7 @@ export const experiences = [
     duration: "1 Month",
     description:
       "Developed and deployed a responsive web application using HTML5, CSS3, and JavaScript.",
-    certificate: "/certificates/codsoft.pdf", 
+    certificate: "/codsoft.pdf", 
   },
   {
     company: "Aushvera",
@@ -56,7 +56,7 @@ export const experiences = [
     duration: "2 Month",
     description:
       "Developed and deployed a responsive web application using HTML5, CSS3, and JavaScript, PHP, MySQL collaborating with developers through GitHub for version control.",
-    certificate: "/certificates/Aushvera.pdf",
+    certificate: "/Aushvera.pdf",
   },
   {
     company: "Aptivison",
@@ -64,7 +64,7 @@ export const experiences = [
     duration: "3 Month",
     description:
       "Developed and deployed a responsive web application using React.js with related library useing collaborating with developers through GitHub for version control.",
-    certificate: "/certificates/aptivison.jpg",
+    certificate: "/aptivison.jpg",
   },
   {
     company: "Navkalpit",
@@ -72,7 +72,7 @@ export const experiences = [
     duration: "pursuing",
     description:
       "Developed and deployed a responsive web application using React.js with related library useing collaborating with developers through GitHub for version control.",
-    certificate: "/certificates/navkalpit.jpg",
+    certificate: "/navkalpit.jpg",
   },
 ];
 
