@@ -48,7 +48,7 @@ export const experiences = [
     duration: "1 Month",
     description:
       "Developed and deployed a responsive web application using HTML5, CSS3, and JavaScript.",
-    certificate: "/Codsoft.pdf", 
+    certificate: "/CodSoft.pdf",
   },
   {
     company: "Aushvera",
